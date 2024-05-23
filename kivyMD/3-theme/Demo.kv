@@ -1,0 +1,28 @@
+<UI>:
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: app.theme_cls.primary_dark
+        MDLabel:
+            text: "hello kivyMD"
+            font_style: 'Subtitle1'
+            halign: 'center'
+            #color: 'pink'
+            theme_text_color: 'Custom'
+            text_color: 0,0,1,1
+
+        MDIcon:
+            icon: 'fingerprint'
+            pos_hint: {"center_x": .5, "center_y": .5}
+            color: "red"
+
+        MDFlatButton:
+            text: 'hello word'
+        MDIconButton:
+            MDIconButton:
+                icon: "heart-outline"
+                style: "tonal"
+                theme_bg_color: "Custom"
+                md_bg_color: "brown"
+                theme_icon_color: "Custom"
+                icon_color: "white"
+            
