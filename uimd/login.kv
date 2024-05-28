@@ -1,0 +1,24 @@
+MDScreen:  
+    #md_bg_color: [153/255, 53/255, 255/255, 1]
+    md_bg_color: app.theme_cls.primaryColor
+    MDCard:
+        style: "elevated"
+        radius: [20]
+        size_hint: None, None
+        size: 320,450
+        pos_hint: {"center_x": 0.5,"center_y":0.5}
+        elevation: 20
+        md_bg_color: [80/255, 90/255, 150/255, 1]
+        padding: 20
+        spacing: 30
+        orientation: "vertical"
+        MDLabel:
+            text: '029 Woranuch Phaiboon'
+            color: 'white'
+            #font_style: 'Button'
+            font_size: 30
+            halign: 'center'
+            size_hint_y: None
+            height: self.texture_size[1]
+            padding_y: 15
+
